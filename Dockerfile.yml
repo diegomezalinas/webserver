@@ -1,0 +1,4 @@
+FROM httpd:2.4
+COPY ./public-html/ /usr/local/apache2/htdocs/
+#Esto es una prueba
+#RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
